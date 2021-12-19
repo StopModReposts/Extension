@@ -1,0 +1,38 @@
+{
+    "appdesc": {
+        "message": "Erkennt und warnt vor Seiten, die bekannt sind, Mods illegal zu verbreiten.",
+        "description": "The description of the extension as it appears when searching in Chrome Web Store."
+    },
+    "title": {
+        "message": "Blockiert",
+        "description": "Title of the popup"
+    },
+    "why": {
+        "message": "Diese Seite wurde von $homepage$ blockiert, da sie auf unserer Liste gefunden wurde und möglicherweise Ihrem Computer schaden könnte.",
+        "description": "Describes why this popup showed up"
+    },
+    "domain": {
+        "message": "DOMAIN",
+        "description": "Domain label"
+    },
+    "reason": {
+        "message": "GRUND",
+        "description": "Reason label"
+    },
+    "notes": {
+        "message": "HINWEISE",
+        "description": "Notes label"
+    },
+    "report": {
+        "message": "Problem melden",
+        "description": "Report False-Positive button to report sites which shouldn't be on the list"
+    },
+    "open": {
+        "message": "Trotzdem öffnen",
+        "description": "Open anyways button to open the site anyways"
+    },
+    "footer": {
+        "message": "Ihre Privatsphäre ist uns wichtig. Wir erfassen keine personenbezogenen Daten wie Ihren Browserverlauf. Bei Fragen, kontaktieren Sie uns über $email$ oder chatten Sie mit uns unter $discord$.",
+        "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us"
+    }
+}
