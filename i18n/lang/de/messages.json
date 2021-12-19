@@ -1,6 +1,6 @@
 {
     "appdesc": {
-        "message": "Erkennt und warnt vor Seiten, die bekannt sind, Minecraft Mods illegal zu verbreiten.",
+        "message": "Detects and warns against sites known to illegally repost mods.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
