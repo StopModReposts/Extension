@@ -1,6 +1,6 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Erkennt und warnt vor Seiten, die bekannt sind, Mods illegal zu verbreiten.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
