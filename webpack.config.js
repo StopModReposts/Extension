@@ -4,7 +4,6 @@ module.exports = {
   entry: {
     contentScript: "./src/contentScript.ts",
     background: "./src/background.ts",
-    pageScript: "./src/pageScript.ts",
     alert: "./src/ui/alert.ts",
   },
   devtool: "source-map",
