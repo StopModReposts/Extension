@@ -1,5 +1,6 @@
 import { LitElement, html, css } from "lit";
 import { customElement, property } from "lit/decorators.js";
+import { unsafeHTML } from "lit/directives/unsafe-html.js";
 import { IllegalSite } from "../types";
 import config from "../../config";
 import "./BlockedSvg";
@@ -111,6 +112,12 @@ class SMRAlert extends LitElement {
       margin-top: 0px;
       text-align: left;
     }
+
+    a {
+      text-decoration: none;
+      cursor: pointer;
+      color: red;
+    }
   `;
 
   render() {
@@ -118,7 +125,7 @@ class SMRAlert extends LitElement {
       <h1>
         <smr-blocked-svg></smr-blocked-svg> ${chrome.i18n.getMessage("title")}
       </h1>
-      <h3>${chrome.i18n.getMessage("why")}</h3>
+      <h3>${unsafeHTML(chrome.i18n.getMessage("why"))}</h3>
       <div class="border-red">
         <div class="container">
           <p class="label">${chrome.i18n.getMessage("domain")}</p>
@@ -139,7 +146,7 @@ class SMRAlert extends LitElement {
       <br />
       <br />
       <br />
-      <p class="footer">${chrome.i18n.getMessage("footer")}</p>
+      <p class="footer">${unsafeHTML(chrome.i18n.getMessage("footer"))}</p>
     </div>`;
   }
 
