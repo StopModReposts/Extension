@@ -18,6 +18,9 @@
   "background": {
     "scripts": ["out/background.bundle.js"]
   },
-  "permissions": ["https://api.stopmodreposts.org/sites.json"],
+  "permissions": [
+    "https://api.stopmodreposts.org/sites.json",
+    "https://smr-api.deta.dev/sites.json"
+  ],
   "manifest_version": 2
 }
