@@ -8,7 +8,7 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "Diese Seite wurde von $HOMEPAGE$ blockiert, da sie auf unserer Liste gefunden wurde und möglicherweise Ihrem Computer schaden könnte.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -38,7 +38,7 @@
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "Ihre Privatsphäre ist uns wichtig. Wir erfassen keine personenbezogenen Daten wie Ihren Browserverlauf. Bei Fragen, kontaktieren Sie uns über $EMAIL$ oder chatten Sie mit uns auf $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
