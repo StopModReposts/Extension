@@ -8,8 +8,14 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "Diese Seite wurde von $homepage$ blockiert, da sie auf unserer Liste gefunden wurde und möglicherweise Ihrem Computer schaden könnte.",
-        "description": "Describes why this popup showed up"
+        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "description": "Describes why this popup showed up",
+        "placeholders": {
+            "homepage": {
+                "content": "<a href='https://stopmodreposts.org' target='_blank'>StopModReposts</a>",
+                "example": "StopModReposts"
+            }
+        }
     },
     "domain": {
         "message": "DOMAIN",
@@ -32,7 +38,17 @@
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Ihre Privatsphäre ist uns wichtig. Wir erfassen keine personenbezogenen Daten wie Ihren Browserverlauf. Bei Fragen, kontaktieren Sie uns über $email$ oder chatten Sie mit uns unter $discord$.",
-        "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us"
+        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
+        "placeholders": {
+            "email": {
+                "content": "<a href='mailto:help@stopmodreposts.org' target='_blank'>Email</a>",
+                "example": "Email"
+            },
+            "discord": {
+                "content": "<a href='https://discord.gg/tZBeUy3' target='_blank'>Discord</a>",
+                "example": "Discord"
+            }
+        }
     }
 }
