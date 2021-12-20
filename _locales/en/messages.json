@@ -1,38 +1,38 @@
 {
-    "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
-        "description": "The description of the extension as it appears when searching in Chrome Web Store."
-    },
-    "title": {
-        "message": "Blocked",
-        "description": "Title of the popup"
-    },
-    "why": {
-        "message": "This site was blocked by $homepage$ since it was found on our list and could possibly harm your computer.",
-        "description": "Describes why this popup showed up"
-    },
-    "domain": {
-        "message": "DOMAIN",
-        "description": "Domain label"
-    },
-    "reason": {
-        "message": "REASON",
-        "description": "Reason label"
-    },
-    "notes": {
-        "message": "NOTES",
-        "description": "Notes label"
-    },
-    "report": {
-        "message": "Report False-Positive",
-        "description": "Report False-Positive button to report sites which shouldn't be on the list"
-    },
-    "open": {
-        "message": "Open anyways",
-        "description": "Open anyways button to open the site anyways"
-    },
-    "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $email$ or chat with us on $discord$.",
-        "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us"
-    }
+  "appdesc": {
+    "message": "Detects and warns against sites known to illegally repost mods.",
+    "description": "The description of the extension as it appears when searching in Chrome Web Store."
+  },
+  "title": {
+    "message": "Blocked",
+    "description": "Title of the popup"
+  },
+  "why": {
+    "message": "This site was blocked by StopModReposts since it was found on our list and could possibly harm your computer.",
+    "description": "Describes why this popup showed up"
+  },
+  "domain": {
+    "message": "DOMAIN",
+    "description": "Domain label"
+  },
+  "reason": {
+    "message": "REASON",
+    "description": "Reason label"
+  },
+  "notes": {
+    "message": "NOTES",
+    "description": "Notes label"
+  },
+  "report": {
+    "message": "Report False-Positive",
+    "description": "Report False-Positive button to report sites which shouldn't be on the list"
+  },
+  "open": {
+    "message": "Open anyways",
+    "description": "Open anyways button to open the site anyways"
+  },
+  "footer": {
+    "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via {email{ or chat with us on {discord{.",
+    "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us"
+  }
 }

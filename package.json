@@ -10,10 +10,12 @@
   "private": true,
   "dependencies": {
     "axios": "^0.24.0",
+    "lit": "^2.0.2",
     "url-matcher": "^0.2.2"
   },
   "scripts": {
-    "build": "webpack --mode production && web-ext build --overwrite-dest"
+    "build": "webpack --mode production && web-ext build --overwrite-dest",
+    "dev": "webpack --mode development -w"
   },
   "devDependencies": {
     "@types/chrome": "^0.0.164",

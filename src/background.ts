@@ -1,4 +1,5 @@
 import axios from "axios";
+import config from "../config";
 import { APIResponse, IllegalSite } from "./types";
 console.log("background loaded");
 let cachedSites: APIResponse = [];
@@ -16,7 +17,7 @@ interface ExtMessage {
 
 let lastBlockedSite: IllegalSite | null = null;
 
-axios.get("https://api.stopmodreposts.org/sites.json").then((res) => {
+axios.get(config.api).then((res) => {
   cachedSites = res.data;
 });
 
