@@ -1,38 +1,54 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Wykrywa i ostrzega przed witrynami, które nielegalnie udostępniają mody.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Zablokowany",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $homepage$ since it was found on our list and could possibly harm your computer.",
-        "description": "Describes why this popup showed up"
+        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "description": "Describes why this popup showed up",
+        "placeholders": {
+            "homepage": {
+                "content": "<a href='https://stopmodreposts.org' target='_blank'>StopModReposts</a>",
+                "example": "StopModReposts"
+            }
+        }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "DOMENA",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "POWÓD",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "UWAGI",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Zgłoś fałszywy alarm",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Otwórz mimo to",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $email$ or chat with us on $discord$.",
-        "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us"
+        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
+        "placeholders": {
+            "email": {
+                "content": "<a href='mailto:help@stopmodreposts.org' target='_blank'>Email</a>",
+                "example": "Email"
+            },
+            "discord": {
+                "content": "<a href='https://discord.gg/tZBeUy3' target='_blank'>Discord</a>",
+                "example": "Discord"
+            }
+        }
     }
 }
