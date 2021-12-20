@@ -1,38 +1,38 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Wykrywa i ostrzega przed witrynami, które nielegalnie udostępniają mody.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Zablokowany",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $homepage$ since it was found on our list and could possibly harm your computer.",
+        "message": "Ta strona została zablokowana przez $homepage$, ponieważ została znaleziona na naszej liście i może być szkodliwa dla Twojego komputera.",
         "description": "Describes why this popup showed up"
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "DOMENA",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "POWÓD",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "UWAGI",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Zgłoś fałszywy alarm",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Otwórz mimo to",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $email$ or chat with us on $discord$.",
+        "message": "Twoja prywatność jest dla nas ważna. Nie zbieramy danych osobowych, takich jak Twoja historia przeglądania. W razie jakichkolwiek pytań, skontaktuj się z nami za pośrednictwem $email$ lub przez $discord$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us"
     }
 }
