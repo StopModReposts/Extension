@@ -25,6 +25,10 @@ class SMRAlert extends LitElement {
     .app-main {
       margin-left: 32%;
       margin-right: 32%;
+      font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto,
+        "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
+        "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
+        "Noto Color Emoji";
     }
 
     h1 {
