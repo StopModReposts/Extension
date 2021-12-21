@@ -163,3 +163,5 @@ class SMRAlert extends LitElement {
     }
   }
 }
+
+SMRAlert;
