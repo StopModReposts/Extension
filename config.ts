@@ -1,4 +1,4 @@
 export default {
-  api: "https://smr-api.deta.dev/sites.json",
+  api: "https://beta.stopmodreposts.org/sites.json",
   mail: "help@stopmodreposts.org",
 };
