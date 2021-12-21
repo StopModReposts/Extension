@@ -24,7 +24,7 @@ axios.get(config.api).then((res) => {
 chrome.runtime.onMessage.addListener(
   (message: ExtMessage, sender, sendResponse) => {
     if (message.type === "get-sites-list") {
-      console.log("sending site list", cachedSites);
+      // console.log("sending site list", cachedSites);
       if (cachedSites[0])
         return sendResponse(
           cachedSites.filter((site) => !ignoreList.includes(site.domain))

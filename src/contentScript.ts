@@ -5,7 +5,10 @@ chrome.runtime.sendMessage(
   { type: "get-sites-list" },
   (response: APIResponse | null) => {
     console.log(response);
-    if (!response) return console.log("ERR TOO FAST");
+    if (!response)
+      return console.log(
+        "smr: Site called without list being loaded by background, ignoring request."
+      );
     let host = location.host;
     if (host.startsWith("www.")) {
       host = host.slice(4);
