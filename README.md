@@ -1,6 +1,7 @@
 # Extension
 
 [![Crowdin](https://badges.crowdin.net/stopmodreposts-extension/localized.svg)](https://crowdin.com/project/stopmodreposts-extension)
+[![CodeQL](https://github.com/StopModReposts/Extension/actions/workflows/codeql-analysis.yml/badge.svg)](https://github.com/StopModReposts/Extension/actions/workflows/codeql-analysis.yml)
 
 The official StopModReposts browser extension
 
