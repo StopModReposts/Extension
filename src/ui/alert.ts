@@ -131,9 +131,9 @@ class SMRAlert extends LitElement {
           <p class="label">${chrome.i18n.getMessage("domain")}</p>
           <p class="data">${this.siteInfo?.domain}</p>
           <p class="label">${chrome.i18n.getMessage("reason")}</p>
-          <p class="data">${this.siteInfo?.reason || "no reason found"}</p>
+          <p class="data">${this.siteInfo?.reason}</p>
           <p class="label">${chrome.i18n.getMessage("notes")}</p>
-          <p class="data">${this.siteInfo?.notes || "no notes found"}</p>
+          <p class="data">${this.siteInfo?.notes}</p>
         </div>
       </div>
       <br />
