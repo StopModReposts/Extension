@@ -33,9 +33,11 @@ chrome.runtime.onMessage.addListener((message: ExtMessage, _, sendResponse) => {
     return sendResponse(null);
   }
 });
-
+let firefox_lastNavUrl: string | null = null;
 chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
+  if (firefox_lastNavUrl == tab.url) return;
   if (!tab.url) return;
+  firefox_lastNavUrl = tab.url;
   const parsed = new Url(tab.url);
   if (!cachedSites[0]) return null;
 
