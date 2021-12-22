@@ -60,8 +60,8 @@ class SMRAlert extends LitElement {
       color: rgb(255, 255, 255);
       font-weight: bolder;
       font-size: 16px;
-      margin-bottom: 15px;
-      margin-top: 15px;
+      margin-bottom: 10px;
+      margin-top: 10px;
     }
 
     .data {
@@ -69,8 +69,8 @@ class SMRAlert extends LitElement {
       margin-top: -20 px;
       font-size: 19px;
       font-weight: 300;
-      margin-bottom: 15px;
-      margin-top: 15px;
+      margin-bottom: 10px;
+      margin-top: 10px;
     }
 
     .btn-false-positive {
