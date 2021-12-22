@@ -173,9 +173,8 @@ class SMRAlert extends LitElement {
         type: "add-to-ignore",
         data: this.siteInfo,
       });
-      chrome.runtime.sendMessage({
-        type: "tab-update",
-        data: this.siteInfo.ext_redirFrom,
+      chrome.tabs.update({
+        url: this.siteInfo.ext_redirFrom,
       });
     }
   }
