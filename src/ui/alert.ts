@@ -3,7 +3,7 @@ import { customElement, property } from "lit/decorators.js";
 import { unsafeHTML } from "lit/directives/unsafe-html.js";
 import { IllegalSite } from "../types";
 import config from "../../config";
-import "./BlockedSvg";
+import svg from "./svg";
 
 @customElement("smr-alert")
 class SMRAlert extends LitElement {
@@ -29,14 +29,15 @@ class SMRAlert extends LitElement {
         "Helvetica Neue", Arial, "Noto Sans", "Liberation Sans", sans-serif,
         "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol",
         "Noto Color Emoji";
+      margin-top: 100px;
+      padding: 0;
     }
 
     h1 {
       color: rgb(215, 0, 0);
       font-size: 55px;
       font-weight: 700;
-      margin-top: 40px;
-      margin-bottom: 0px;
+      margin: 0;
     }
 
     h3 {
@@ -59,6 +60,8 @@ class SMRAlert extends LitElement {
       color: rgb(255, 255, 255);
       font-weight: bolder;
       font-size: 16px;
+      margin-bottom: 15px;
+      margin-top: 15px;
     }
 
     .data {
@@ -66,6 +69,8 @@ class SMRAlert extends LitElement {
       margin-top: -20 px;
       font-size: 19px;
       font-weight: 300;
+      margin-bottom: 15px;
+      margin-top: 15px;
     }
 
     .btn-false-positive {
@@ -122,13 +127,21 @@ class SMRAlert extends LitElement {
       cursor: pointer;
       color: red;
     }
+
+    svg {
+      display: inline-block;
+      width: 55px;
+      height: 55px;
+      font-size: inherit;
+      color: inherit;
+      vertical-align: -0.125em;
+    }
   `;
 
   render() {
     return html`<div class="app-main">
-      <h1>
-        <smr-blocked-svg></smr-blocked-svg> ${chrome.i18n.getMessage("title")}
-      </h1>
+      <h1>${svg} ${chrome.i18n.getMessage("title")}</h1>
+
       <h3>${unsafeHTML(chrome.i18n.getMessage("why"))}</h3>
       <div class="border-red">
         <div class="container">
