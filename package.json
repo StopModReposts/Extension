@@ -11,7 +11,7 @@
   "dependencies": {
     "axios": "^0.24.0",
     "lit": "^2.0.2",
-    "url-matcher": "^0.2.2"
+    "url-parse": "^1.5.3"
   },
   "scripts": {
     "build": "webpack --mode production && web-ext build --overwrite-dest",
@@ -19,6 +19,7 @@
   },
   "devDependencies": {
     "@types/chrome": "^0.0.164",
+    "@types/url-parse": "^1.4.5",
     "ts-loader": "^9.2.6",
     "typescript": "^4.5.2",
     "web-ext": "^6.5.0",

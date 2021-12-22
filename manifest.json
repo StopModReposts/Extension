@@ -9,15 +9,9 @@
     "32": "icons/icon32.png",
     "16": "icons/icon16.png"
   },
-  "content_scripts": [
-    {
-      "matches": ["http://*/*", "https://*/*"],
-      "js": ["out/contentScript.bundle.js"]
-    }
-  ],
   "background": {
     "scripts": ["out/background.bundle.js"]
   },
-  "permissions": ["https://beta.stopmodreposts.org/sites.json"],
+  "permissions": ["https://beta.stopmodreposts.org/sites.json", "tabs"],
   "manifest_version": 2
 }

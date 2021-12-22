@@ -2,7 +2,6 @@ const path = require("path");
 
 module.exports = {
   entry: {
-    contentScript: "./src/contentScript.ts",
     background: "./src/background.ts",
     alert: "./src/ui/alert.ts",
   },
