@@ -146,7 +146,7 @@ class SMRAlert extends LitElement {
       <div class="border-red">
         <div class="container">
           <p class="label">${chrome.i18n.getMessage("domain")}</p>
-          <p class="data">${this.siteInfo?.domain}</p>
+          <p class="data">${this.siteInfo?.domain}${this._getSitePath()}</p>
           <p class="label">${chrome.i18n.getMessage("reason")}</p>
           <p class="data">${this.siteInfo?.reason}</p>
           <p class="label">${chrome.i18n.getMessage("notes")}</p>
@@ -178,6 +178,16 @@ class SMRAlert extends LitElement {
         data: this.siteInfo.ext_redirFrom,
       });
     }
+  }
+
+  private _getSitePath() {
+    if (this.siteInfo) {
+      if (this.siteInfo.path == "/") {
+        return "";
+      } else {
+        return this.siteInfo.path;
+      }
+    } else return;
   }
 }
 
