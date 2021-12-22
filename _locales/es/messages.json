@@ -8,7 +8,7 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "Este sitio fue bloqueado por $HOMEPAGE$ ya que fue encontrado en nuestra lista y posiblemente podría dañar tu ordenador.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "DOMINIO",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "MOTIVO",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "NOTAS",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Reportar Falso-Positivo",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Abrir de todos modos",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "Su privacidad es importante para nosotros. No recopilamos datos personales como su historial de navegación. Para cualquier pregunta o duda, ponte en contacto con nosotros a través de $EMAIL$ o chatea con nosotros en $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
