@@ -1,5 +1,3 @@
-export type APIResponse = IllegalSite[];
-
 export interface IllegalSite {
   domain: string;
   notes: string;
