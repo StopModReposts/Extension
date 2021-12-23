@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "侦测并警告那些非法分发模组的站点。",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "已屏蔽",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "此站点已被 $HOMEPAGE$ 阻止，因为它位于我们的列表中并且可能会损害您的计算机。",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -26,7 +26,7 @@
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "注意事项：",
         "description": "Notes label"
     },
     "report": {
@@ -34,7 +34,7 @@
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "仍然打开",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
