@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Обнаруживает и предупреждает о сайтах, незаконно распространяющих моды.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Заблокирован",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "Этот сайт был заблокирован $HOMEPAGE$, так как был найден в нашем списке и вероятно может нанести вред Вашему компьютеру.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "ДОМЕН",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "ПРИЧИНА",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "ПРИМЕЧАНИЯ",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Сообщить о ложном срабатывании",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Всё равно открыть",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "Ваша конфиденциальность важна для нас. Мы не собираем личные данные, такие как Вашу историю посещений сайтов. При любых вопросах свяжитесь с нами через $EMAIL$ или пообщайтесь с нами в $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
