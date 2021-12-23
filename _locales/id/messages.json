@@ -1,0 +1,54 @@
+{
+    "appdesc": {
+        "message": "Mendeteksi dan memperingatkan terhadap situs yang diketahui memposting ulang mod secara ilegal.",
+        "description": "The description of the extension as it appears when searching in Chrome Web Store."
+    },
+    "title": {
+        "message": "Diblokir",
+        "description": "Title of the popup"
+    },
+    "why": {
+        "message": "Situs ini diblokir oleh $HOMEPAGE$ karena ditemukan di daftar kami dan mungkin dapat membahayakan komputer anda.",
+        "description": "Describes why this popup showed up",
+        "placeholders": {
+            "homepage": {
+                "content": "<a href='https://stopmodreposts.org' target='_blank'>StopModReposts</a>",
+                "example": "StopModReposts"
+            }
+        }
+    },
+    "domain": {
+        "message": "DOMAIN",
+        "description": "Domain label"
+    },
+    "reason": {
+        "message": "ALASAN",
+        "description": "Reason label"
+    },
+    "notes": {
+        "message": "CATATAN",
+        "description": "Notes label"
+    },
+    "report": {
+        "message": "Laporkan positif palsu",
+        "description": "Report False-Positive button to report sites which shouldn't be on the list"
+    },
+    "open": {
+        "message": "Tetap buka",
+        "description": "Open anyways button to open the site anyways"
+    },
+    "footer": {
+        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
+        "placeholders": {
+            "email": {
+                "content": "<a href='mailto:help@stopmodreposts.org' target='_blank'>Email</a>",
+                "example": "Email"
+            },
+            "discord": {
+                "content": "<a href='https://discord.gg/tZBeUy3' target='_blank'>Discord</a>",
+                "example": "Discord"
+            }
+        }
+    }
+}
