@@ -38,7 +38,7 @@
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "你的隐私非常重要。我们不会收集像你的浏览记录一样的个人信息。若有问题，请通过 $EMAIL$ 联系我们或在 $DISCORD$ 与我们聊天。",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
