@@ -5,6 +5,8 @@ import { IllegalSite } from "../types";
 import config from "../../config";
 import svg from "./svg";
 
+document.title = chrome.i18n.getMessage("title");
+
 @customElement("smr-alert")
 class SMRAlert extends LitElement {
   @property({ type: Object })
