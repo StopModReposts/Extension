@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Detecteert en waarschuwt voor websites die illegaal mods posten.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Geblokkeerd",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "Deze website is geblokkeerd door $HOMEPAGE$, omdat het in onze lijst gevonden is en mogelijk uw computer zou kunnen beschadigen.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "DOMEIN",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "REDEN",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "NOTITIES",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Meld Fout-Positief",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Open toch",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "Uw privacy is belangrijk voor ons. We verzamelen geen persoonlijke gegevens zoals uw surfgeschiedenis. Voor vragen of aanvragen kan U contact met ons opnemen via $EMAIL$ of met ons chatten op $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {

@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Détecte et met en garde l'utilisateur contre des sites connus pour reposter illégalement des mods.",
+        "message": "Mendeteksi dan memperingatkan terhadap situs yang diketahui memposting ulang mod secara ilegal.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Bloqué",
+        "message": "Diblokir",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "Ce site a été bloqué par $HOMEPAGE$ puisqu'il a été trouvé dans notre liste et pourrait potentiellement endommager votre ordinateur.",
+        "message": "Situs ini diblokir oleh $HOMEPAGE$ karena ditemukan di daftar kami dan mungkin dapat membahayakan komputer anda.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAINE",
+        "message": "DOMAIN",
         "description": "Domain label"
     },
     "reason": {
-        "message": "RAISON",
+        "message": "ALASAN",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "CATATAN",
         "description": "Notes label"
     },
     "report": {
-        "message": "Signaler un faux-positif",
+        "message": "Laporkan positif palsu",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Ouvrir quand même",
+        "message": "Tetap buka",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Votre vie privée est importante pour nous. Nous ne collectons pas de données personnelles comme votre historique de navigation. Pour toute question ou autre requête, contactez-nous par $EMAIL$ ou discutez sur $DISCORD$.",
+        "message": "Privasi anda penting bagi kami. Kami tidak akan mengumpulkan data personal seperti riwayat penulusuran anda. Untuk pertanyaan, hubungi kami melalui $EMAIL$ atau mengobrol dengan kami di $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
