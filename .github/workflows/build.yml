@@ -17,16 +17,7 @@ jobs:
       uses: actions/setup-node@v1
       with:
         node-version: 16.x
-
-    - name: Build
-      run: |
-        yarn
-        yarn build
         
-    - uses: actions/upload-artifact@v2
-      with:
-        name: extension
-        path: web-ext-artifacts/*
     - name: Cache
       uses: actions/cache@v2.1.7
       with:
@@ -37,3 +28,13 @@ jobs:
           yarn.lock
     # An explicit key for restoring and saving the cache
         key: cache1
+        
+    - name: Build
+      run: |
+        yarn
+        yarn build
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: extension
+        path: web-ext-artifacts/*
