@@ -12,7 +12,7 @@ The official StopModReposts browser extension
 
 ## Installation
 
-Coming soon.
+Please visit [stopmodreposts.org/extension](https://stopmodreposts.org/extension) for installation instructions.
 
 ## Development
 
