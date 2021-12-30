@@ -1,0 +1,39 @@
+name: NodeJS with Webpack
+
+on:
+  push:
+    branches: [ main ]
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    
+    steps:
+    - uses: actions/checkout@v2
+
+    - name: Use Node.js 16.x
+      uses: actions/setup-node@v1
+      with:
+        node-version: 16.x
+
+    - name: Build
+      run: |
+        yarn
+        yarn build
+        
+    - uses: actions/upload-artifact@v2
+      with:
+        name: extension
+        path: web-ext-artifacts/*
+    - name: Cache
+      uses: actions/cache@v2.1.7
+      with:
+      # A list of files, directories, and wildcard patterns to cache and restore
+        path: |
+          node_modules/
+          out/
+          yarn.lock
+    # An explicit key for restoring and saving the cache
+        key: cache1
