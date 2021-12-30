@@ -7,50 +7,51 @@ on:
 jobs:
   build:
     runs-on: ubuntu-latest
-    
+
     steps:
-    - uses: actions/checkout@v2
+      - uses: actions/checkout@v2
 
-    - name: Use Node.js 16
-      uses: actions/setup-node@v1
-      with:
-        node-version: 16
+      - name: Use Node.js 16
+        uses: actions/setup-node@v1
+        with:
+          node-version: 16
 
-    - name: Cache
-      uses: actions/cache@v2.1.7
-      with:
-      # A list of files, directories, and wildcard patterns to cache and restore
-        path: |
-          node_modules/
-          out/
-          yarn.lock
-    # An explicit key for restoring and saving the cache
-        key: cache1
+      - name: Cache
+        uses: actions/cache@v2.1.7
+        with:
+          # A list of files, directories, and wildcard patterns to cache and restore
+          path: |
+            node_modules/
+            out/
+            yarn.lock
+          # An explicit key for restoring and saving the cache
+          key: cache1
 
-    - name: Build
-      run: |
-        yarn
-        yarn build
+      - name: Build
+        run: |
+          yarn
+          yarn build
 
-    - run: |
-         upload_url=$(curl -sL https://api.github.com/repos/StopModReposts/Extension/releases/latest | jq -r '.upload_url')
-         echo UPLOAD_URL=$upload_url >> $GITHUB_ENV
-    
-    - name: get extension filename
-      id: extzip
-      run: |
-           files=(./web-ext-artifacts/*)
-           echo EXT_ARTIFACT_PATH=$files >> $GITHUB_ENV
-           cd web-ext-artifacts
-           files2=(*)
-           echo EXT_ARTIFACT_NAME=$files2 >> $GITHUB_ENV
-  
-    - name: Upload release artifacts
-      uses: actions/upload-release-asset@v1
-      with:
-        upload_url: ${{ env.UPLOAD_URL }}
-        asset_path: ${{ env.EXT_ARTIFACT_PATH }}
-        asset_name: ${{ env.EXT_ARTIFACT_NAME }}
-        asset_content_type: application/zip
-      env:
+      - name: Get release upload URL
+        run: |
+          upload_url=$(curl -sL https://api.github.com/repos/StopModReposts/Extension/releases/latest | jq -r '.upload_url')
+          echo UPLOAD_URL=$upload_url >> $GITHUB_ENV
+
+      - name: Get extension filename
+        id: extzip
+        run: |
+          files=(./web-ext-artifacts/*)
+          echo EXT_ARTIFACT_PATH=$files >> $GITHUB_ENV
+          cd web-ext-artifacts
+          files2=(*)
+          echo EXT_ARTIFACT_NAME=$files2 >> $GITHUB_ENV
+
+      - name: Upload release artifacts
+        uses: actions/upload-release-asset@v1
+        with:
+          upload_url: ${{ env.UPLOAD_URL }}
+          asset_path: ${{ env.EXT_ARTIFACT_PATH }}
+          asset_name: ${{ env.EXT_ARTIFACT_NAME }}
+          asset_content_type: application/zip
+        env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
