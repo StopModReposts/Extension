@@ -52,3 +52,5 @@ jobs:
         asset_path: ${{ env.EXT_ARTIFACT_PATH }}
         asset_name: ${{ env.EXT_ARTIFACT_NAME }}
         asset_content_type: application/zip
+      env:
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
