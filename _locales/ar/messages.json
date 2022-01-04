@@ -22,7 +22,7 @@
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "السبب",
         "description": "Reason label"
     },
     "notes": {
