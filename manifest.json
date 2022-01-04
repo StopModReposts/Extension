@@ -12,6 +12,10 @@
   "background": {
     "scripts": ["out/background.bundle.js"]
   },
-  "permissions": ["https://api.stopmodreposts.org/sites.json", "tabs"],
+  "permissions": [
+    "https://api.stopmodreposts.org/sites.json",
+    "tabs",
+    "storage"
+  ],
   "manifest_version": 2
 }

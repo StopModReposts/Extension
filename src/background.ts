@@ -3,25 +3,43 @@ import config from "../config";
 import { IllegalSite } from "./types";
 import Url from "url-parse";
 console.log("background loaded");
+
 let cachedSites: IllegalSite[] = [];
 let ignoreList: IllegalSite[] = [];
-type ExtMessageType =
-  | "get-sites-list"
-  | "tab-update"
-  | "save-blocked-site"
-  | "get-blocked-site"
-  | "add-to-ignore"
-  | "check-site";
+let lastBlockedSite: IllegalSite | null = null;
+type ExtMessageType = "get-blocked-site" | "add-to-ignore";
 interface ExtMessage {
   type: ExtMessageType;
   data: any;
 }
 
-let lastBlockedSite: IllegalSite | null = null;
-
-axios.get(config.api).then((res) => {
-  cachedSites = res.data;
+chrome.storage.local.get(["etag"], (result) => {
+  if (result.etag) {
+    axios.head(config.api).then((res) => {
+      if (res.headers["etag"] != result.etag) {
+        refreshCache();
+      } else {
+        loadFromLocal();
+      }
+    });
+  } else {
+    refreshCache();
+  }
 });
+
+function loadFromLocal() {
+  chrome.storage.local.get(["cache"], (result) => {
+    cachedSites = result.cache;
+  });
+}
+
+function refreshCache() {
+  axios.get(config.api).then((res) => {
+    chrome.storage.local.set({ etag: res.headers["etag"] });
+    chrome.storage.local.set({ cache: res.data });
+    cachedSites = res.data;
+  });
+}
 
 chrome.runtime.onMessage.addListener((message: ExtMessage, _, sendResponse) => {
   if (message.type === "get-blocked-site") {
