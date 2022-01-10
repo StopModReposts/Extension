@@ -1,8 +1,9 @@
 {
   "name": "Stop Mod Reposts",
   "version": "5.0.1",
-  "description": "__MSG_appdesc__",
+  "description": "An extention that warns you when you go on a mod repost site",
   "default_locale": "en",
+  "author": "berrysauce",
   "icons": {
     "128": "icons/icon128.png",
     "48": "icons/icon48.png",
