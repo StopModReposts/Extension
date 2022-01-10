@@ -3,7 +3,7 @@
 Requirements:
 
 - [Node.js and NPM](https://nodejs.org/)
-- A decently up to date Chrome and Firefox
+- A decently up to date [Chrome](https://www.google.com/chrome/) and [Firefox](https://www.mozilla.org/en-US/firefox/new/)
 - [Git](https://git-scm.com/)
 
 ## Install dev environment
