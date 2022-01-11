@@ -53,3 +53,12 @@ To do that, go to `about:debugging#/runtime/this-firefox` and click `load tempor
 ### Chromium
 
 Go to `chrome://extensions/`, enable developer mode, and click `Load unpacked`, then navigate to your build directory and pick it (pick your directory, **NOT** web-ext-artifacts or the .zip)
+
+### Code style
+
+Generally, use `prettier` via an IDE extension.  
+Do not mess up the formatting, however adding new code that has different formatting is okay as i'll reformat it eventually
+
+### Commit messages
+
+`<issue id | NOISSUE> <commit message>`
