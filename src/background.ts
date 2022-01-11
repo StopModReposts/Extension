@@ -60,12 +60,9 @@ chrome.tabs.onUpdated.addListener((tabId, changeInfo, tab) => {
   if (!cachedSites[0]) return null;
 
   let host = parsed.host;
-  if (parsed.host.startsWith("www.")) {
-    host = parsed.host.slice(4);
-  }
 
   const site = cachedSites.find(
-    (site) => site.domain === host || site.domain.endsWith(`*.${parsed.host}`)
+    (site) => site.domain === host || parsed.host.endsWith(`.${site.domain}`)
   );
   if (!site) return null;
   const pathCorrect = site.path ? parsed.pathname.startsWith(site.path) : true;
