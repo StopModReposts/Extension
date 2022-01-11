@@ -24,6 +24,23 @@ If you'd like to translate the extension in your language, go to the Crowdin Pro
 
 If your language is not yet listed on Crowdin, send an email to [translate@stopmodreposts.org](mailto:translate@stopmodreposts.org) and we'll try to get back to you as soon as possible.
 
-## Credits
+## Credits & Thanks
 
 Thanks so much to [dada513](https://github.com/dada513) for updating the extension!
+
+**The following people helped translating this extension:**
+- 1lots
+- andreasz1998
+- axocode
+- mohammedbrandon204
+- PoorPocketsMcNewHold
+- hrudyplayz
+- nolemretaW
+- RazrCraft
+- RobUnknown
+- yuewuww
+
+
+If you'd like your name to be added/removed, email [translate@stopmodreposts.org](mailto:translate@stopmodreposts.org).
+
+Thanks ❤️
