@@ -1,4 +1,4 @@
-Minecraft 的模组制作者们经常遭受版权侵犯。 如今，大量模组被再次分发到第三方站点并且没有开发者的许可。 这些网站大多位于越南或俄罗斯，由于版权法不同，很难删除模组。 其中许多站点将这些模组非法商业化，以便从这些模组制作者的艰苦工作中赚钱。 有些甚至甚至还声称他们拥有版权。 一些网站往里面加入了病毒和垃圾软件，并且声称这是真正的安全的模组。 是时候阻止他们了。
+Minecraft 的模组制作者们经常遭受版权侵犯。 如今，大量模组被再次分发到第三方站点并且没有开发者的许可。 这些网站大多位于越南或俄罗斯，由于版权法不同，很难删除模组。 其中许多站点将这些模组非法商业化，以便从这些模组制作者的艰苦工作中赚钱。 有些甚至甚至还声称他们拥有版权。 一些网站往里面加入了病毒和垃圾软件，并且声称这是真正的安全的模组。 所以，是时候阻止他们了。
 
 When DMCAs and take-down notices fail, we have to rely on the community to stop people from downloading mods from these sources. However, many of the websites engaging in the type of activity outlined above look very well designed and official, confusing many players and making them believe that these sites are actually the real ones. As a result, many machines are infected with viruses and malware, modders lose revenue and reputation and are spammed with reports about bugs which have already been fixed in newer versions of their mods, since only the old versions are hosted on the illegal sites. Stop Mod Reposts is designed to stop this. Here's how we plan to do it:
 
