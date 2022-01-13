@@ -18,11 +18,11 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "域名",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "原因",
         "description": "Reason label"
     },
     "notes": {
@@ -30,7 +30,7 @@
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "向我们报告",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
