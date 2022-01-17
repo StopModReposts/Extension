@@ -1,6 +1,6 @@
 {
     "appdesc": {
-        "message": "Détecte et met en garde l'utilisateur contre des sites connus pour reposter illégalement des mods.",
+        "message": "Détecte et met en garde l'utilisateur contre des sites connus pour republier illégalement des mods.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
