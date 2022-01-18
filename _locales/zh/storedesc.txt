@@ -1,8 +1,8 @@
-Minecraft 的模组制作者们经常遭受版权侵犯。 如今，大量模组被再次分发到第三方站点并且没有开发者的许可。 这些网站大多位于越南或俄罗斯，由于版权法不同，很难删除模组。 其中许多站点将这些模组非法商业化，以便从这些模组制作者的艰苦工作中赚钱。 有些甚至甚至还声称他们拥有版权。 一些网站往里面加入了病毒和垃圾软件，并且声称这是真正的安全的模组。 所以，是时候阻止他们了。
+模组制作者的版权经常遭到侵犯。 如今，大量的模组被分发到第三方站点并且没有开发者的许可。 这些站点大多位于越南或俄罗斯，由于版权法不同，很难要求其删除模组。 其中许多站点将这些模组非法商业化，以便从这些模组制作者的艰苦工作中赚钱。 有些甚至甚至还声称他们拥有版权。 一些站点在下载中附带了病毒和垃圾软件，并且声称这是真正的模组。 所以，是时候阻止他们了。
 
-When DMCAs and take-down notices fail, we have to rely on the community to stop people from downloading mods from these sources. However, many of the websites engaging in the type of activity outlined above look very well designed and official, confusing many players and making them believe that these sites are actually the real ones. 结果，许多电脑遭到病毒感染， 模组开发者失去了收入和信誉。 并且因为已经修复的 Bug 而收到垃圾邮件，因为旧版本的模组在那些网站上。 StopModReposts 是为了制止这种状态。 下面是我们打算如何处理：
+当 DMCA 和删除通知失败时，我们必须依靠社区来阻止人们从这些地方下载模组。 However, many of the websites engaging in the type of activity outlined above look very well designed and official, confusing many players and making them believe that these sites are actually the real ones. 结果，许多电脑遭到病毒感染， 模组开发者失去了收入和信誉。 并且因为已经修复的 Bug 而收到垃圾邮件，因为旧版本的模组在那些网站上。 StopModReposts 是为了制止这种状态。 下面是我们打算如何处理：
 
-- 让人们知道，这些站点是非法的 当人们不知道站点的行为是违法的，而且站点对模组作者的权利一无所知时，我们没有办法阻止他们使用这些网站。 所以，在浏览这样的网站的时候，扩展会显示一个叠加层。
+- 让人们知道，这些网站是非法的。 当人们不知道网站的行为是违法的，而且站点对模组作者的权利一无所知时，我们没有办法阻止他们使用这些网站。 所以，在浏览这样的网站的时候，扩展会显示一个叠加层。
 - 让人们知道，访问这些网站会使他们的电脑面临风险。 没有人的电脑想被病毒感染，所以我们会警告他们，这些网站可能会损害他们的电脑。
 
 网站列出的不合法的第三方站点与 Github 仓库 https://github.com/StopModReposts/Illegal-Mod-Sites 中的网站地址是同步的，每隔一段时间都会进行更新。
