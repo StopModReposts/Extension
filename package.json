@@ -9,9 +9,9 @@
   "$comment": "should not be published to npm registry: keep it private",
   "private": true,
   "dependencies": {
-    "axios": "^0.24.0",
-    "lit": "^2.0.2",
-    "url-parse": "^1.5.3"
+    "axios": "^0.25.0",
+    "lit": "^2.1.1",
+    "url-parse": "^1.5.4"
   },
   "scripts": {
     "build": "webpack --mode production && web-ext build --overwrite-dest",
