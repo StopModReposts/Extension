@@ -1,6 +1,6 @@
 {
     "appdesc": {
-        "message": "Détecte et met en garde l'utilisateur contre des sites connus pour reposter illégalement des mods.",
+        "message": "Détecte et met en garde l'utilisateur contre des sites connus pour republier illégalement des mods.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
@@ -38,7 +38,7 @@
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Votre vie privée est importante pour nous. Nous ne collectons pas de données personnelles comme votre historique de navigation. Pour toute question ou autre requête, contactez-nous par $EMAIL$ ou discutez sur $DISCORD$.",
+        "message": "Votre confidentialité est importante pour nous. Nous ne collectons pas de données personnelles comme votre historique de navigation. Pour toute question ou autre requête, contactez-nous par $EMAIL$ ou discutez avec nous sur $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
