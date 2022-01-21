@@ -8,7 +8,7 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "Este site foi bloqueado por $HOMEPAGE$ uma vez que foi encontrado na nossa lista e pode eventualmente danificar o seu computador.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
