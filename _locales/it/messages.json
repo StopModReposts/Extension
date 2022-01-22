@@ -1,10 +1,10 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Rileva e avverte i siti noti per ripubblicare illegalmente le mod.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Bloccata",
         "description": "Title of the popup"
     },
     "why": {
@@ -34,7 +34,7 @@
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Aprire comunque",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
