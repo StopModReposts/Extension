@@ -5,4 +5,4 @@ When DMCAs and take-down notices fail, we have to rely on the community to stop 
 - Letting people know that the sites are illegal. There is no way we can stop people from using these sites when they're unaware that the actions of the host is against the law and that the host is ignorant of the modders' rights. Therefore, this extension will display an overlay when browsing a site like this.
 - Letting people know that visiting these sites puts their computers at risk. No one wants to be infected with malware, so we'll warn them that the sites potentially can harm their machines.
 
-The sites this extension warns about are the same sites as are listed on https://github.com/StopModReposts/Illegal-Mod-Sites and is updated every few days or hours with new hosts.
+I siti di cui questa estensione avverte sono gli stessi che sono elencati su https://github.com/StopModReposts/Illegal-Mod-Sites e viene aggiornato ogni pochi giorni o ore con nuovi host.
