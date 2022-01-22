@@ -26,11 +26,11 @@
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "APPUNTI",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Segnala un falso positivo",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
@@ -38,7 +38,7 @@
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "La tua privacy è importante per noi. Non raccogliamo dati personali come la tua cronologia di navigazione. Per qualsiasi domanda o richiesta, contattaci via $EMAIL$ o chatta con noi su $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
