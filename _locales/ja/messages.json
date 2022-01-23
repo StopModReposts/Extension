@@ -4,11 +4,11 @@
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "ブロック化",
+        "message": "アクセスをブロックしました",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "このサイトは$HOMEPAGE$のリストで発見され、あなたのコンピュータに害を及ぼす可能性があるため、ブロックされました。",
+        "message": "このサイトは $HOMEPAGE$ のリストに入っており、あなたのコンピュータに害を及ぼす可能性があるためブロックされました。",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -22,23 +22,23 @@
         "description": "Domain label"
     },
     "reason": {
-        "message": "リーズン",
+        "message": "理由",
         "description": "Reason label"
     },
     "notes": {
-        "message": "注意事項",
+        "message": "備考",
         "description": "Notes label"
     },
     "report": {
-        "message": "誤検出の報告",
+        "message": "誤検出を報告する",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "とにかく開く",
+        "message": "警告を無視する",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "お客様のプライバシーは、私たちにとって重要なものです。私たちはあなたの閲覧履歴のような個人データを収集することはありません。ご質問やお問い合わせは、$EMAIL$または$DISCORD$のチャットでご連絡ください。",
+        "message": "お客様のプライバシーは、私たちにとっても重要なものです。私たちはあなたの閲覧履歴のような個人データを収集することはありません。ご質問やお問い合わせは、 $EMAIL$ または $DISCORD$ のチャットでご連絡ください。",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
