@@ -8,7 +8,7 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "$HOMEPAGE$ on estänyt tämän sivuston, koska se löytyi listaltamme ja voi mahdollisesti vahingoittaa tietokonettasi.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,7 +18,7 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "DOMAINTI",
         "description": "Domain label"
     },
     "reason": {
@@ -30,15 +30,15 @@
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Ilmoita väärästä positiivisesta",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Avaa joka tapauksessa",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "Yksityisyytesi on meille tärkeää. Emme kerää henkilötietoja, kuten selaushistoriaasi. Jos sinulla on kysyttävää tai tiedusteluja, ota meihin yhteyttä $EMAIL$ tai chattaile kanssamme $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
