@@ -1,6 +1,6 @@
 {
     "appdesc": {
-        "message": "Modを不正に転載することで知られるサイトを検出し、警告を発します。",
+        "message": "Modを不正に再配布しているサイトを検出し、警告します。",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
