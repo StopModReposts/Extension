@@ -1,10 +1,10 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Havaitsee ja varoittaa sivustoista, joiden tiedetään laittomasti julkaisevan modeja.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Estetty",
         "description": "Title of the popup"
     },
     "why": {
@@ -22,11 +22,11 @@
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "SYY",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "HUOMAUTUKSET",
         "description": "Notes label"
     },
     "report": {
