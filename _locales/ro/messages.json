@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Detectează și avertizează cu privire la site-urile cunoscute pentru repostarea ilegală a mod-urilor.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Blocat",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "Acest site a fost blocat de $HOMEPAGE$ deoarece a fost găsit pe lista noastră și ar putea afecta calculatorul dumneavoastră.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "DOMENIUL",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "MOTIVARE",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "NOTĂ",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Raportați fals-pozitiv",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Deschide oricum",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "Confidențialitatea dumneavoastră este importantă pentru noi. Nu colectăm date personale, cum ar fi istoricul de navigare. Pentru orice întrebări sau solicitări, contactați-ne prin $EMAIL$ sau discutați cu noi pe $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
