@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Oppdager og advarer mot nettsteder som er kjent for å ulovlig reposte mods.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Blokkert",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "Denne siden ble blokkert av $HOMEPAGE$ siden den ble funnet på listen vår og muligens kan skade datamaskinen din.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "DOMENE",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "ÅRSAKEN",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "MERKNADER",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Rapporter falsk-positiv",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Åpne uansett",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "Personvernet ditt er viktig for oss. Vi samler ikke inn personlige data som din nettleserhistorikk. For spørsmål eller forespørsler, kontakt oss via $EMAIL$ eller chat med oss ​​på $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
