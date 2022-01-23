@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Modを不正に転載することで知られるサイトを検出し、警告を発します。",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "ブロック化",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "このサイトは$HOMEPAGE$のリストで発見され、あなたのコンピュータに害を及ぼす可能性があるため、ブロックされました。",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "ドメイン",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "リーズン",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "注意事項",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "誤検出の報告",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "とにかく開く",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "お客様のプライバシーは、私たちにとって重要なものです。私たちはあなたの閲覧履歴のような個人データを収集することはありません。ご質問やお問い合わせは、$EMAIL$または$DISCORD$のチャットでご連絡ください。",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
