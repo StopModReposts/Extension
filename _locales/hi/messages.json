@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "अवैध रूप से रीपोस्ट करने के लिए ज्ञात साइटों का पता लगाता है और चेतावनी देता है।",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "अवरोधित",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "यह साइट $HOMEPAGE$ द्वारा अवरुद्ध कर दी गई थी क्योंकि यह हमारी सूची में पाई गई थी और संभवतः आपके कंप्यूटर को नुकसान पहुंचा सकती है।",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "कार्यक्षेत्र",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "कारण",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "टिप्पणियाँ",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "झूठी-सकारात्मक रिपोर्ट करें",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "वैसे भी खोलें",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "आपकी निजता हमारे लिए महत्वपूर्ण है। हम आपके ब्राउज़िंग इतिहास की तरह व्यक्तिगत डेटा एकत्र नहीं करते हैं। किसी भी प्रश्न या पूछताछ के लिए, $EMAIL$ के माध्यम से हमसे संपर्क करें या $DISCORD$ पर हमारे साथ चैट करें।",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
