@@ -56,7 +56,7 @@ Go to `chrome://extensions/`, enable developer mode, and click `Load unpacked`, 
 
 ### Code style
 
-Generally, use `prettier` via an IDE extension.  
+Generally, use [`prettier`](https://prettier.io/) via an IDE extension.  
 Do not mess up the formatting, however adding new code that has different formatting is okay as i'll reformat it eventually
 
 ### Commit messages
