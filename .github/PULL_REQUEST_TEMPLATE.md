@@ -31,7 +31,7 @@ Please delete options that are not relevant.
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have checked my code and corrected any misspellings
 
-# did you test it on any of the browsers
+# Did you test it on any of the browsers?
 - []chrome
 - []Firefox
 - []Opera
