@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "מזהה ומתריע מפני אתרים הידועים כמפרסמים מחדש אופנים באופן לא חוקי.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "חָסוּם",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "אתר זה נחסם על ידי $HOMEPAGE$ מכיוון שהוא נמצא ברשימה שלנו ועלול להזיק למחשב שלך.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "תְחוּם",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "סיבה",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "הערות",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "דווח על חיובי כוזב",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "דווח על חיובי כוזב",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Your Privacy is important to us. We do not collect personal data like your browsing history. For any questions or inquiries, contact us via $EMAIL$ or chat with us on $DISCORD$.",
+        "message": "הפרטיות שלך חשובה לנו. אנחנו לא אוספים נתונים אישיים כמו היסטוריית הגלישה שלך. לכל שאלה או בירור, צור איתנו קשר באמצעות $EMAIL$ או צ'אט איתנו ב-$DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
