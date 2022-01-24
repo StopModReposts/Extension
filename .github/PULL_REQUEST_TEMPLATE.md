@@ -18,7 +18,7 @@ Closes # (issue)
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have checked my code and corrected any misspellings
 
-# Did you test it on any of the browsers?
+# What browsers did you test it on?
 - []chrome
 - []Firefox
 - []Opera
