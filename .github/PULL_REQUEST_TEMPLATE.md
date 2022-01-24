@@ -19,7 +19,5 @@ Closes # (issue)
 - [ ] I have checked my code and corrected any misspellings
 
 # What browsers did you test it on?
-- []chrome
-- []Firefox
-- []Opera
-- []Edge
+- [ ] Chromium
+- [ ] Firefox
