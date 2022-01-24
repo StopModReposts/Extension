@@ -3,7 +3,7 @@
 - Please include a summary of the change and which issue is fixed.
 
 # Additional info
-- Please also include relevant  context.
+- Please also include relevant context.
 
 Closes # (issue)
 
