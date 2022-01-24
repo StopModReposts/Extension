@@ -2,7 +2,7 @@
 
 - Please include a summary of the change and which issue is fixed.
 
-# Additional info
+## Additional info
 - Please also include relevant context.
 
 Closes # (issue)
@@ -18,6 +18,6 @@ Closes # (issue)
 - [ ] Any dependent changes have been merged and published in downstream modules
 - [ ] I have checked my code and corrected any misspellings
 
-# What browsers did you test it on?
+## What browsers did you test it on?
 - [ ] Chromium
 - [ ] Firefox
