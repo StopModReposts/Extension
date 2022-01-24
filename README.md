@@ -20,7 +20,7 @@ Read [DEVELOPMENT.md](./DEVELOPMENT.md)
 
 ## Translating
 
-If you'd like to translate the extension in your language, go to the Crowdin Project (https://crwd.in/stopmodreposts-extension), select your language, and translate the strings. Thanks so much for your time and effort into making this project accessible by all kinds of users!
+If you'd like to translate the extension in your language, go to the [Crowdin Project](https://crwd.in/stopmodreposts-extension), select your language, and translate the strings. Thanks so much for your time and effort into making this project accessible by all kinds of users!
 
 If your language is not yet listed on Crowdin, send an email to [translate@stopmodreposts.org](mailto:translate@stopmodreposts.org) and we'll try to get back to you as soon as possible.
 
