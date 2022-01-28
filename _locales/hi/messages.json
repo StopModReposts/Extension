@@ -1,6 +1,6 @@
 {
     "appdesc": {
-        "message": "अवैध रूप से रीपोस्ट करने के लिए ज्ञात साइटों का पता लगाता है और चेतावनी देता है।",
+        "message": "अवैध रूप से पुन: पोस्ट करने के लिए ज्ञात साइटों का पता लगाता है और चेतावनी देता है।",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
