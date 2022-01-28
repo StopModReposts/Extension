@@ -30,7 +30,7 @@
         "description": "Notes label"
     },
     "report": {
-        "message": "向我们报告",
+        "message": "报告错误的拦截",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
