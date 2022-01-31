@@ -1,6 +1,6 @@
 {
     "appdesc": {
-        "message": "Rileva e avverte i siti noti per ripubblicare illegalmente le mod.",
+        "message": "Rileva e avverte l'utente che sta visitando un sito che reposta mod illegalmente.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
@@ -26,7 +26,7 @@
         "description": "Reason label"
     },
     "notes": {
-        "message": "APPUNTI",
+        "message": "NOTE",
         "description": "Notes label"
     },
     "report": {
@@ -34,11 +34,11 @@
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Aprire comunque",
+        "message": "Apri comunque",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "La tua privacy è importante per noi. Non raccogliamo dati personali come la tua cronologia di navigazione. Per qualsiasi domanda o richiesta, contattaci via $EMAIL$ o chatta con noi su $DISCORD$.",
+        "message": "La tua privacy è importante per noi. Non raccogliamo dati personali come la tua cronologia di navigazione. Per qualsiasi domanda o richiesta, contattaci via $EMAIL$ o parla con noi su $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
