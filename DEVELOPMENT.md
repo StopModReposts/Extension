@@ -61,4 +61,4 @@ Do not mess up the formatting, however adding new code that has different format
 
 ### Commit messages
 
-`<issue id | NOISSUE> <commit message>`
+`<issue id if exists> <commit message>`
