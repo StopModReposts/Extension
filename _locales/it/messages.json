@@ -4,7 +4,7 @@
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Bloccata",
+        "message": "Bloccato",
         "description": "Title of the popup"
     },
     "why": {
