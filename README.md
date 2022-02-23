@@ -41,7 +41,7 @@ Thanks so much to [dada513](https://github.com/dada513) for updating the extensi
 - yuewuww
 
 
-If you'd like your name to be added/removed, email [translate@stopmodreposts.org](mailto:translate@stopmodreposts.org).
+If you'd like your name to be added/removed, email [us](mailto:&#116;&#114;&#097;&#110;&#115;&#108;&#097;&#116;&#101;&#064;&#115;&#116;&#111;&#112;&#109;&#111;&#100;&#114;&#101;&#112;&#111;&#115;&#116;&#115;&#046;&#111;&#114;&#103;).
 
 Thanks ❤️
 
