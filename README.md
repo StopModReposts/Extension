@@ -48,4 +48,4 @@ Thanks ❤️
 ## LICENSE
 The extension code is under [GNU General Public License v3.0](https://github.com/StopModReposts/Extension/blob/main/LICENSE)
 
-All assets belongs towards StopModReposts
+All of the asset's belongs towards StopModReposts
