@@ -44,3 +44,6 @@ Thanks so much to [dada513](https://github.com/dada513) for updating the extensi
 If you'd like your name to be added/removed, email [translate@stopmodreposts.org](mailto:translate@stopmodreposts.org).
 
 Thanks ❤️
+
+## LICENSE
+[GNU General Public License v3.0](https://github.com/StopModReposts/Extension/blob/main/LICENSE    )
