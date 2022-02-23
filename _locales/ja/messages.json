@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Modを不正に再配布しているサイトを検出し、警告します。",
+        "message": "Modを不正に再配布しているウェブサイトを検出し、警告します。",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "アクセスをブロックしました",
+        "message": "アクセスをブロックしました。",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "このサイトは $HOMEPAGE$ のリストに入っており、あなたのコンピュータに害を及ぼす可能性があるためブロックされました。",
+        "message": "このサイトは $HOMEPAGE$ のリストに入っており、あなたのコンピュータに害を及ぼす可能性があるため、ブロックされました。",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
