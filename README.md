@@ -46,4 +46,6 @@ If you'd like your name to be added/removed, email [translate@stopmodreposts.or
 Thanks ❤️
 
 ## LICENSE
-[GNU General Public License v3.0](https://github.com/StopModReposts/Extension/blob/main/LICENSE    )
+The extension code is under [GNU General Public License v3.0](https://github.com/StopModReposts/Extension/blob/main/LICENSE)
+
+All assets belongs towards StopModReposts
