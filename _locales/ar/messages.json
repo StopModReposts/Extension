@@ -8,7 +8,7 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "تم حظر هذا الموقع من قبل $HOMEPAGE$ الصفحة الرئيسية منذ تم العثور عليه في قائمتنا وربما يمكن أن تضر جهاز الكمبيوتر الخاص بك.",
+        "message": "تم حظر هذا الموقع من قبل $HOMEPAGE$ لأننا عثرنا عليه في قائمتنا وربما يمكن أن تضر جهاز الحاسوب الخاص بك.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -26,11 +26,11 @@
         "description": "Reason label"
     },
     "notes": {
-        "message": "ملحوظات",
+        "message": "ملاحظات",
         "description": "Notes label"
     },
     "report": {
-        "message": "تقرير إيجابية كاذبة",
+        "message": "إخبرنا إذا هذا الموقع لا يفترض أن يكون محظورا",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
