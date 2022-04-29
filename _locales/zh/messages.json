@@ -26,7 +26,7 @@
         "description": "Reason label"
     },
     "notes": {
-        "message": "注意事项：",
+        "message": "附注：",
         "description": "Notes label"
     },
     "report": {
