@@ -183,7 +183,7 @@ class SMRAlert extends LitElement {
       </a>
 
       <a class="btn-share-twitter" href="<a class="btn-share-twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fstopmodreposts.org&via=StopModReposts&text=guys%20are%20You%20aware%20that%20they%20are%20websites%20that%20websites%20that%20repost%20Minecraft%20content%20they%20are%20even%20illegal%20see%3A&hashtags=%23StopModReposts">
-      <strong>${chrome.i18n.getMessage("Share on twitter")}</strong>
+      <strong>${chrome.i18n.getMessage("Share on Twitter!")}</strong>
     </a>
       <br />
       <br />
