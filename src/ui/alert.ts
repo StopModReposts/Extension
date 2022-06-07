@@ -105,6 +105,25 @@ class SMRAlert extends LitElement {
       vertical-align: middle;
       cursor: pointer;
       user-select: none;
+      padding: 0.400rem 0.95rem;
+      font-size: 1rem;
+      margin-bottom: 15px;
+      background: rgba(0, 0, 0, 0);
+      border-radius: 5px;
+      color: rgb(244, 9, 9);
+      border: 2px solid rgba(0, 172, 238);
+    }
+
+    .btn-share-twitter {
+      box-sizing: border-box;
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      user-select: none;
       padding: 0.375rem 0.75rem;
       font-size: 1rem;
       margin-bottom: 15px;
@@ -162,6 +181,10 @@ class SMRAlert extends LitElement {
       <a class="btn-open-anyways" @click="${this._openAnyway}">
         <strong>${chrome.i18n.getMessage("open")}</strong>
       </a>
+
+      <a class="btn-share-twitter" href="<a class="btn-share-twitter" @click=">
+      <strong>${chrome.i18n.getMessage("Share on twitter")}</strong>
+    </a>
       <br />
       <br />
       <br />
