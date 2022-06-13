@@ -105,6 +105,25 @@ class SMRAlert extends LitElement {
       vertical-align: middle;
       cursor: pointer;
       user-select: none;
+      padding: 0.400rem 0.95rem;
+      font-size: 1rem;
+      margin-bottom: 15px;
+      background: rgba(0, 0, 0, 0);
+      border-radius: 5px;
+      color: rgb(244, 9, 9);
+      border: 2px solid rgba(0, 172, 238);
+    }
+
+    .btn-share-twitter {
+      box-sizing: border-box;
+      display: inline-block;
+      font-weight: 400;
+      line-height: 1.5;
+      text-align: center;
+      text-decoration: none;
+      vertical-align: middle;
+      cursor: pointer;
+      user-select: none;
       padding: 0.375rem 0.75rem;
       font-size: 1rem;
       margin-bottom: 15px;
@@ -162,6 +181,10 @@ class SMRAlert extends LitElement {
       <a class="btn-open-anyways" @click="${this._openAnyway}">
         <strong>${chrome.i18n.getMessage("open")}</strong>
       </a>
+
+      <a class="btn-share-twitter" href="<a class="btn-share-twitter" href="https://twitter.com/intent/tweet?url=https%3A%2F%2Fstopmodreposts.org&via=StopModReposts%20%20&text=guys%20are%20you%20aware%20that%20they%20are%20websites%20%20that%20repost%20Minecraft%20content%20for%20their%20own%20profits%20they%20are%20even%20illegal%20see%20for%20more%20info%3A&hashtags=StopModReposts">
+      <strong>${chrome.i18n.getMessage("Share on Twitter!")}</strong>
+    </a>
       <br />
       <br />
       <br />
