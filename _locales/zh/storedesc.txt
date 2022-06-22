@@ -5,4 +5,4 @@
 - 让人们知道，这些网站是违法的。 当人们不知道网站的行为是违法的，而且网站对模组作者的权利一无所知时，我们没有办法阻止他们使用这些网站。 所以，在浏览这样的网站的时候，扩展会显示一个叠加层。
 - 让人们知道，访问这些网站会使他们的电脑面临风险。 没有人的电脑想被病毒感染。所以说我们会警告他们，这些网站可能会损坏他们的电脑。
 
-StopModReposts 的网站列出的网站与 Github 仓库 https://github.com/StopModReposts/Illegal-Mod-Sites 中的地址是同步的，每隔一段时间都会进行更新。
+StopModReposts 列出的网站与 Github 仓库 https://github.com/StopModReposts/Illegal-Mod-Sites 中的地址是同步的，每隔一段时间都会进行更新。
