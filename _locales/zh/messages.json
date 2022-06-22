@@ -8,7 +8,7 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "此站点已被 $HOMEPAGE$ 阻止，因为它位于我们的列表中并且可能会损害您的计算机。",
+        "message": "由于它位于我们的列表中并且可能会损害您的计算机，此站点已被 $HOMEPAGE$ 阻止。",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
