@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detects and warns against sites known to illegally repost mods.",
+        "message": "Виявляє та попереджає про сайти, які, як відомо, незаконно розміщують моди.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Blocked",
+        "message": "Заблокований",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "This site was blocked by $HOMEPAGE$ since it was found on our list and could possibly harm your computer.",
+        "message": "Цей сайт було заблоковано $HOMEPAGE$ оскільки він був знайдений у нашому списку та міг зашкодити вашому комп’ютеру.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,23 +18,23 @@
         }
     },
     "domain": {
-        "message": "DOMAIN",
+        "message": "ДОМЕН",
         "description": "Domain label"
     },
     "reason": {
-        "message": "REASON",
+        "message": "ПРИЧИНА",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTES",
+        "message": "ПРИМІТКИ",
         "description": "Notes label"
     },
     "report": {
-        "message": "Report False-Positive",
+        "message": "Повідомити про хибно-позитивний результат",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open anyways",
+        "message": "Все одно відкрити",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
