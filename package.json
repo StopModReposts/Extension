@@ -9,7 +9,7 @@
   "$comment": "should not be published to npm registry: keep it private",
   "private": true,
   "dependencies": {
-    "axios": "^0.27.1",
+    "axios": "^1.0.0",
     "lit": "^2.1.1",
     "url-parse": "^1.5.4"
   },
