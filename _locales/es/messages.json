@@ -30,7 +30,7 @@
         "description": "Notes label"
     },
     "report": {
-        "message": "Reportar Falso-Positivo",
+        "message": "Reportar falso-positivo",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
