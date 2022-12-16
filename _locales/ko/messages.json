@@ -4,7 +4,7 @@
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "막힌",
+        "message": "차단됨",
         "description": "Title of the popup"
     },
     "why": {
@@ -30,15 +30,15 @@
         "description": "Notes label"
     },
     "report": {
-        "message": "가양성 보고",
+        "message": "잘못 막힌 사이트 문의하기",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "어쨌든 열기",
+        "message": "그래도 사이트 열기",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "귀하의 개인 정보는 우리에게 중요합니다. 우리는 귀하의 검색 기록과 같은 개인 데이터를 수집하지 않습니다. 질문이나 문의 사항이 있으면 $EMAIL$을 통해 문의하거나 $DISCORD$에서 채팅하십시오.",
+        "message": "귀하의 개인 정보는 우리에게 중요합니다. 우리는 귀하의 검색 기록과 같은 개인 데이터를 수집하지 않습니다. 질문이나 문의 사항이 있으면 $EMAIL$을 통해 문의하거나 $DISCORD$에서 채팅을 통해 문의하십시오.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
