@@ -19,7 +19,7 @@
     "chromium": "concurrently --names webpack,chromium --prefix-colors red,blue \"webpack --mode development -w\" \"web-ext run --target chromium --arg=\"--window-size=1280,800\" $CHROMIUM_OPTIONS\""
   },
   "devDependencies": {
-    "@types/chrome": "^0.0.187",
+    "@types/chrome": "^0.0.205",
     "@types/url-parse": "^1.4.7",
     "concurrently": "^7.0.0",
     "nodemon": "^2.0.15",
