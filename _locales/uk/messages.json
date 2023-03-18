@@ -30,7 +30,7 @@
         "description": "Notes label"
     },
     "report": {
-        "message": "Повідомити про хибно-позитивний результат",
+        "message": "Повідомити хибно-позитивний результат",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
