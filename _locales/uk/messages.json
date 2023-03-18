@@ -1,6 +1,6 @@
 {
     "appdesc": {
-        "message": "Виявляє та попереджає про сайти, які, як відомо, незаконно розміщують моди.",
+        "message": "Виявляє та попереджує о сайтах, що відомі незаконним розміщенням модів.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
@@ -8,7 +8,7 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "Цей сайт було заблоковано $HOMEPAGE$ оскільки він був знайдений у нашому списку та міг зашкодити вашому комп’ютеру.",
+        "message": "Сайт було заблоковано $HOMEPAGE$ оскільки він був у нашому списку та міг зашкодити вашому комп’ютеру.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -26,7 +26,7 @@
         "description": "Reason label"
     },
     "notes": {
-        "message": "ПРИМІТКИ",
+        "message": "ЗАМІТКИ",
         "description": "Notes label"
     },
     "report": {
