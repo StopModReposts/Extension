@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detecta y advierte sobre sitios web que publican mods de Minecraft ilegalmente.",
+        "message": "Виявляє та попереджує о сайтах, що відомі незаконним розміщенням модів.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Bloqueado",
+        "message": "Заблокований",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "Este sitio fue bloqueado por $HOMEPAGE$ ya que fue encontrado en nuestra lista y posiblemente podría dañar tu ordenador.",
+        "message": "Сайт було заблоковано $HOMEPAGE$ оскільки він був у нашому списку та міг зашкодити вашому комп’ютеру.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMINIO",
+        "message": "ДОМЕН",
         "description": "Domain label"
     },
     "reason": {
-        "message": "MOTIVO",
+        "message": "ПРИЧИНА",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTAS",
+        "message": "ЗАМІТКИ",
         "description": "Notes label"
     },
     "report": {
-        "message": "Reportar falso-positivo",
+        "message": "Повідомити хибно-позитивний результат",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Abrir de todos modos",
+        "message": "Все одно відкрити",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Su privacidad es importante para nosotros. No recopilamos datos personales como su historial de navegación. Para cualquier pregunta o duda, ponte en contacto con nosotros a través de $EMAIL$ o chatea con nosotros en $DISCORD$.",
+        "message": "Ваша конфіденційність важлива для нас. Ми не збираємо особисті дані, наприклад вашу історію вебперегляду. З будь-якими запитаннями чи запитами зв’яжіться з нами через $EMAIL$ або поспілкуйтеся з нами на $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {

@@ -18,7 +18,7 @@
         }
     },
     "domain": {
-        "message": "DOMAINTI",
+        "message": "DOMAINI",
         "description": "Domain label"
     },
     "reason": {
@@ -30,7 +30,7 @@
         "description": "Notes label"
     },
     "report": {
-        "message": "Ilmoita väärästä positiivisesta",
+        "message": "Ilmoita virheestä",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {

@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detecta y advierte sobre sitios web que publican mods de Minecraft ilegalmente.",
+        "message": "Modları yasa dışı olarak yeniden paylaştığı bilinen siteleri algılar ve uyarır.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Bloqueado",
+        "message": "Engellendi",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "Este sitio fue bloqueado por $HOMEPAGE$ ya que fue encontrado en nuestra lista y posiblemente podría dañar tu ordenador.",
+        "message": "Bu site, listemizde bulunduğundan ve muhtemelen bilgisayarınıza zarar verebileceğinden $HOMEPAGE$ tarafından engellendi.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMINIO",
+        "message": "ALAN ADI",
         "description": "Domain label"
     },
     "reason": {
-        "message": "MOTIVO",
+        "message": "GEREKÇE",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTAS",
+        "message": "NOTLAR",
         "description": "Notes label"
     },
     "report": {
-        "message": "Reportar falso-positivo",
+        "message": "Yanlış engelleme durumunu bildir",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Abrir de todos modos",
+        "message": "Yine de aç",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Su privacidad es importante para nosotros. No recopilamos datos personales como su historial de navegación. Para cualquier pregunta o duda, ponte en contacto con nosotros a través de $EMAIL$ o chatea con nosotros en $DISCORD$.",
+        "message": "Gizliliğiniz bizim için önemlidir. Tarayıcı geçmişiniz gibi kişisel verileri toplamıyoruz. Herhangi bir sorunuz varsa, $EMAIL$ aracılığıyla bizimle iletişime geçin veya bizimle $DISCORD$ üzerinden sohbet edin.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {

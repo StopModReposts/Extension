@@ -8,7 +8,7 @@
         "description": "Title of the popup"
     },
     "why": {
-        "message": "Deze website is geblokkeerd door $HOMEPAGE$, omdat het in onze lijst gevonden is en mogelijk uw computer zou kunnen beschadigen.",
+        "message": "Deze site was geblokkeerd door $HOMEPAGE$, omdat het in onze lijst is gevonden en mogelijk uw computer zou kunnen beschadigen.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -30,15 +30,15 @@
         "description": "Notes label"
     },
     "report": {
-        "message": "Meld Fout-Positief",
+        "message": "Rapporteer Fout-Positief",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Open toch",
+        "message": "Toch openen",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Uw privacy is belangrijk voor ons. We verzamelen geen persoonlijke gegevens zoals uw surfgeschiedenis. Voor vragen of aanvragen kan U contact met ons opnemen via $EMAIL$ of met ons chatten op $DISCORD$.",
+        "message": "Uw privacy is belangrijk voor ons. We verzamelen geen persoonlijke gegevens zoals uw surfgeschiedenis. Voor vragen of aanvragen kunt u contact met ons opnemen via $EMAIL$ of met ons chatten op $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {

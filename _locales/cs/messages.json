@@ -1,14 +1,14 @@
 {
     "appdesc": {
-        "message": "Detecta y advierte sobre sitios web que publican mods de Minecraft ilegalmente.",
+        "message": "Detekuje a varuje před stránkami, o nichž je známo, že nelegálně rozšiřují módy.",
         "description": "The description of the extension as it appears when searching in Chrome Web Store."
     },
     "title": {
-        "message": "Bloqueado",
+        "message": "Blokováno",
         "description": "Title of the popup"
     },
     "why": {
-        "message": "Este sitio fue bloqueado por $HOMEPAGE$ ya que fue encontrado en nuestra lista y posiblemente podría dañar tu ordenador.",
+        "message": "Tento web byl zablokován $HOMEPAGE$, protože byl nalezen v našem seznamu a mohl by poškodit váš počítač.",
         "description": "Describes why this popup showed up",
         "placeholders": {
             "homepage": {
@@ -18,27 +18,27 @@
         }
     },
     "domain": {
-        "message": "DOMINIO",
+        "message": "DOMÉNA",
         "description": "Domain label"
     },
     "reason": {
-        "message": "MOTIVO",
+        "message": "DŮVOD",
         "description": "Reason label"
     },
     "notes": {
-        "message": "NOTAS",
+        "message": "POZNÁMKY",
         "description": "Notes label"
     },
     "report": {
-        "message": "Reportar falso-positivo",
+        "message": "Nahlásit falešnou detekci",
         "description": "Report False-Positive button to report sites which shouldn't be on the list"
     },
     "open": {
-        "message": "Abrir de todos modos",
+        "message": "Přesto otevřít",
         "description": "Open anyways button to open the site anyways"
     },
     "footer": {
-        "message": "Su privacidad es importante para nosotros. No recopilamos datos personales como su historial de navegación. Para cualquier pregunta o duda, ponte en contacto con nosotros a través de $EMAIL$ o chatea con nosotros en $DISCORD$.",
+        "message": "Vaše soukromí je pro nás důležité. Nesbíráme žádné osobní údaje, jako je Vaše historie prohlížení. Pro jakékoliv dotazy nebo dotazy nás kontaktujte prostřednictvím $EMAIL$ nebo s námi chatujte na $DISCORD$.",
         "description": "A bit of information at the end of the popup to inform the user about privacy and how they can contact us",
         "placeholders": {
             "email": {
